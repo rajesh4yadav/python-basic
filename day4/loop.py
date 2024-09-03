@@ -1,5 +1,7 @@
-i =1
+i =0
 while i<=5:
+    if i== 3:
+        break
     print(i)
     i+=1
     
@@ -9,5 +11,5 @@ people = [ "ram"
     
 ]
 
-for index, person in enumerate(people):
+#for index, person in enumerate(people):
     

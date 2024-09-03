@@ -1,0 +1,17 @@
+games={'football','cricket',1,2,3,'tabletenis',
+       'kabadi'}
+print(type(games))
+print(len(games))
+print(games.add("hockey"))#
+print(games)
+print(games.remove('tabletenis'))#
+print(games)
+play={'jambo',
+      'race',
+      'shooting',
+      'kabadi'
+      }
+print(games.union(play))
+print(games.intersection(play))
+print(games.difference(play))
+print(play.difference(games))
